@@ -1,0 +1,16 @@
+/* Um seletor de classe é identificado pelo prefixo . */
+.btnPrimary {
+    background-color: red;
+}
+
+/* Sem prefixo é um seletor de tag, 
+    todas as tags assumem esse CSS */
+button {
+    margin: 10px;
+}
+
+/* Com prefixo # é um seletor de id, 
+    tem prioridade máxima, só perde para o inline e !important */
+#btnLimpar {
+    background-color: blueviolet;
+}

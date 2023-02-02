@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5</title>
+    <link href="./style.css" rel="stylesheet" />
+    <!--
+    <style>
+        /* Um seletor de classe é identificado pelo prefixo . */
+        .btnPrimary {
+            background-color: red;
+        }
+
+        /* Sem prefixo é um seletor de tag, 
+            todas as tags assumem esse CSS */
+        button {
+            margin: 10px;
+        }
+
+        /* Com prefixo # é um seletor de id, 
+            tem prioridade máxima, só perde para o inline e !important */
+        #btnLimpar {
+            background-color: blueviolet;
+        }
+    </style>
+    -->
+</head>
+<body>
+    <form novalidate action="http://google.com.br/search">
+        Digite o que quer pesquisar: 
+        <input type="text" required name="q" />
+
+        <button class="btnPrimary" id="btnLimpar" type="reset">Limpar</button>
+        <!-- Aqui estamos usando CSS inline -->
+        <button style="width: 200px; background-color: chocolate;">Enviar</button>
+
+        <!-- Aqui estamos atribuindo CSS utilizando seletor de classe -->
+        <button class="btnPrimary" style="margin-right: 30px">Enviar 2</button>
+        <button class="btnPrimary">Enviar 3</button>
+
+        <div class="btnPrimary">Uma div qualquer</div>
+    </form>
+</body>
+</html>
